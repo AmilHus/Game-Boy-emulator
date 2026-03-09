@@ -1,0 +1,2172 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/uname"
+      - "/Users/amil21/.shorebird/bin/uname"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/uname"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Darwin - 25.0.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/gmake"
+      - "/Users/amil21/.shorebird/bin/gmake"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/gmake"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/gmake"
+    found: "/opt/homebrew/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/cc"
+      - "/Users/amil21/.shorebird/bin/cc"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/cc"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/cc"
+      - "/opt/homebrew/bin/cc"
+      - "/opt/homebrew/sbin/cc"
+      - "/usr/local/bin/cc"
+      - "/System/Cryptexes/App/usr/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/4.1.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 466 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/amil21/.antigravity/antigravity/bin/objcopy"
+      - "/Users/amil21/.shorebird/bin/objcopy"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/objcopy"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Users/amil21/Settings/flutter/bin/objcopy"
+      - "/Users/amil21/.rbenv/shims/pod/objcopy"
+      - "/Users/amil21/.pub-cache/bin/objcopy"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/amil21/.antigravity/antigravity/bin/readelf"
+      - "/Users/amil21/.shorebird/bin/readelf"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/readelf"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Users/amil21/Settings/flutter/bin/readelf"
+      - "/Users/amil21/.rbenv/shims/pod/readelf"
+      - "/Users/amil21/.pub-cache/bin/readelf"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/amil21/.antigravity/antigravity/bin/dlltool"
+      - "/Users/amil21/.shorebird/bin/dlltool"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/dlltool"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Users/amil21/Settings/flutter/bin/dlltool"
+      - "/Users/amil21/.rbenv/shims/pod/dlltool"
+      - "/Users/amil21/.pub-cache/bin/dlltool"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/amil21/.antigravity/antigravity/bin/addr2line"
+      - "/Users/amil21/.shorebird/bin/addr2line"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/addr2line"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Users/amil21/Settings/flutter/bin/addr2line"
+      - "/Users/amil21/.rbenv/shims/pod/addr2line"
+      - "/Users/amil21/.pub-cache/bin/addr2line"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/amil21/.antigravity/antigravity/bin/tapi"
+      - "/Users/amil21/.shorebird/bin/tapi"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/tapi"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Users/amil21/Settings/flutter/bin/tapi"
+      - "/Users/amil21/.rbenv/shims/pod/tapi"
+      - "/Users/amil21/.pub-cache/bin/tapi"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:1 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/install_name_tool"
+      - "/Users/amil21/.shorebird/bin/install_name_tool"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/install_name_tool"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_380bc/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_380bc.dir/build.make CMakeFiles/cmTC_380bc.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy'
+        Building C object CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 17.0.0 (clang-1700.3.9.908)
+        Target: arm64-apple-darwin25.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy -target-linker-version 1215 -v -fcoverage-compilation-dir=/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy -resource-dir /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 (clang-1700.3.9.908) default target arm64-apple-darwin25.0.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_380bc
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_380bc.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.3.9.908)
+        Target: arm64-apple-darwin25.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.0 -syslibroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_380bc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1215
+        BUILD 20:28:51 May 28 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.5.6)
+        Library search paths:
+        	/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -o cmTC_380bc
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_380bc/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_380bc.dir/build.make CMakeFiles/cmTC_380bc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy']
+        ignore line: [Building C object CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.3.9.908)]
+        ignore line: [Target: arm64-apple-darwin25.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy -target-linker-version 1215 -v -fcoverage-compilation-dir=/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-ivMrYy -resource-dir /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.3.9.908) default target arm64-apple-darwin25.0.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_380bc]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_380bc.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.3.9.908)]
+        ignore line: [Target: arm64-apple-darwin25.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.0 -syslibroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_380bc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_380bc] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_380bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1215
+      BUILD 20:28:51 May 28 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.5.6)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIncludeFiles.cmake:195 (try_compile)"
+      - "CMakeLists.txt:24 (check_include_files)"
+      - "CMakeLists.txt:30 (ck_check_include_file)"
+    checks:
+      - "Looking for include file stdlib.h"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_f01da/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_f01da.dir/build.make CMakeFiles/cmTC_f01da.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj'
+        Building C object CMakeFiles/cmTC_f01da.dir/HAVE_STDLIB_H.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_f01da.dir/HAVE_STDLIB_H.c.o -MF CMakeFiles/cmTC_f01da.dir/HAVE_STDLIB_H.c.o.d -o CMakeFiles/cmTC_f01da.dir/HAVE_STDLIB_H.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj/HAVE_STDLIB_H.c
+        Linking C executable cmTC_f01da
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f01da.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f01da.dir/HAVE_STDLIB_H.c.o -o cmTC_f01da
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-KpKjkj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:343 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_2cde9/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_2cde9.dir/build.make CMakeFiles/cmTC_2cde9.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M'
+        Building C object CMakeFiles/cmTC_2cde9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_2cde9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2cde9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2cde9.dir/CheckIncludeFile.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M/CheckIncludeFile.c
+        Linking C executable cmTC_2cde9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cde9.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2cde9.dir/CheckIncludeFile.c.o -o cmTC_2cde9
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-8Hvm3M'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:344 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8117d/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8117d.dir/build.make CMakeFiles/cmTC_8117d.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie'
+        Building C object CMakeFiles/cmTC_8117d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_8117d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8117d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8117d.dir/CheckIncludeFile.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie/CheckIncludeFile.c
+        Linking C executable cmTC_8117d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8117d.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8117d.dir/CheckIncludeFile.c.o -o cmTC_8117d
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-qqaIie'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:345 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_70a25/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_70a25.dir/build.make CMakeFiles/cmTC_70a25.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr'
+        Building C object CMakeFiles/cmTC_70a25.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_70a25.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_70a25.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_70a25.dir/CheckIncludeFile.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr/CheckIncludeFile.c
+        Linking C executable cmTC_70a25
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a25.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70a25.dir/CheckIncludeFile.c.o -o cmTC_70a25
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-s7toOr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:237 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:364 (__check_type_size_impl)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Check size of intmax_t"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_INTMAX_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_81822/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_81822.dir/build.make CMakeFiles/cmTC_81822.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC'
+        Building C object CMakeFiles/cmTC_81822.dir/INTMAX_T.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_81822.dir/INTMAX_T.c.o -MF CMakeFiles/cmTC_81822.dir/INTMAX_T.c.o.d -o CMakeFiles/cmTC_81822.dir/INTMAX_T.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC/INTMAX_T.c
+        Linking C executable cmTC_81822
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81822.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_81822.dir/INTMAX_T.c.o -o cmTC_81822
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-zgrxiC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:237 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:364 (__check_type_size_impl)"
+      - "CMakeLists.txt:37 (check_type_size)"
+    checks:
+      - "Check size of uintmax_t"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_UINTMAX_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_0f949/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_0f949.dir/build.make CMakeFiles/cmTC_0f949.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz'
+        Building C object CMakeFiles/cmTC_0f949.dir/UINTMAX_T.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_0f949.dir/UINTMAX_T.c.o -MF CMakeFiles/cmTC_0f949.dir/UINTMAX_T.c.o.d -o CMakeFiles/cmTC_0f949.dir/UINTMAX_T.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz/UINTMAX_T.c
+        Linking C executable cmTC_0f949
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f949.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0f949.dir/UINTMAX_T.c.o -o cmTC_0f949
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-NfVGwz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:237 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckTypeSize.cmake:364 (__check_type_size_impl)"
+      - "CMakeLists.txt:39 (check_type_size)"
+    checks:
+      - "Check size of pid_t"
+    directories:
+      source: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H"
+      binary: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_PID_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_62536/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_62536.dir/build.make CMakeFiles/cmTC_62536.dir/build
+        gmake[1]: Entering directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H'
+        Building C object CMakeFiles/cmTC_62536.dir/PID_T.c.o
+        /usr/bin/cc   -arch arm64 -MD -MT CMakeFiles/cmTC_62536.dir/PID_T.c.o -MF CMakeFiles/cmTC_62536.dir/PID_T.c.o.d -o CMakeFiles/cmTC_62536.dir/PID_T.c.o -c /Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H/PID_T.c
+        Linking C executable cmTC_62536
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62536.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_62536.dir/PID_T.c.o -o cmTC_62536
+        gmake[1]: Leaving directory '/Users/amil21/Documents/emulator/LLD_gbemu/emulator/CMakeFiles/CMakeScratch/TryCompile-V4zj8H'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "cmake/FindCheck.cmake:30 (INCLUDE)"
+      - "tests/CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/amil21/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode-beta.app/Contents/Applications/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Applications/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/pkg-config"
+      - "/Users/amil21/.antigravity/antigravity/bin/pkgconf"
+      - "/Users/amil21/.shorebird/bin/pkg-config"
+      - "/Users/amil21/.shorebird/bin/pkgconf"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/pkg-config"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/pkgconf"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/pkg-config"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/pkgconf"
+    found: "/opt/homebrew/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/amil21/Applications"
+        - "/Applications"
+        - "/Applications/Xcode-beta.app/Contents/Applications"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/FindCheck.cmake:31 (PKG_SEARCH_MODULE)"
+      - "tests/CMakeLists.txt:3 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_CHECK_check"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "check"
+    candidate_directories:
+      - "/opt/homebrew/Cellar/check/0.15.2/lib/"
+    found: "/opt/homebrew/Cellar/check/0.15.2/lib/libcheck.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "tests/CMakeLists.txt:17 (find_program)"
+    mode: "program"
+    variable: "DEBIAN"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dpkg"
+    candidate_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/"
+      - "/Users/amil21/.shorebird/bin/"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/amil21/Settings/flutter/bin/"
+      - "/Users/amil21/.rbenv/shims/pod/"
+      - "/Users/amil21/.pub-cache/bin/"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/amil21/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode-beta.app/Contents/Applications/"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Applications/"
+    searched_directories:
+      - "/Users/amil21/.antigravity/antigravity/bin/dpkg"
+      - "/Users/amil21/.shorebird/bin/dpkg"
+      - "/Users/amil21/Documents/gradle-7.6.3/bin/dpkg"
+      - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin/dpkg"
+      - "/opt/homebrew/bin/dpkg"
+      - "/opt/homebrew/sbin/dpkg"
+      - "/usr/local/bin/dpkg"
+      - "/System/Cryptexes/App/usr/bin/dpkg"
+      - "/usr/bin/dpkg"
+      - "/bin/dpkg"
+      - "/usr/sbin/dpkg"
+      - "/sbin/dpkg"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dpkg"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dpkg"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dpkg"
+      - "/Library/Apple/usr/bin/dpkg"
+      - "/Users/amil21/Settings/flutter/bin/dpkg"
+      - "/Users/amil21/.rbenv/shims/pod/dpkg"
+      - "/Users/amil21/.pub-cache/bin/dpkg"
+      - "/Users/amil21/Library/Android/sdk/platform-tools/dpkg"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/dpkg"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/dpkg"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/dpkg"
+      - "/opt/homebrew/bin/dpkg"
+      - "/opt/homebrew/sbin/dpkg"
+      - "/opt/homebrew/dpkg"
+      - "/usr/local/bin/dpkg"
+      - "/usr/local/sbin/dpkg"
+      - "/usr/local/dpkg"
+      - "/usr/bin/dpkg"
+      - "/usr/sbin/dpkg"
+      - "/usr/dpkg"
+      - "/bin/dpkg"
+      - "/sbin/dpkg"
+      - "/usr/X11R6/bin/dpkg"
+      - "/usr/X11R6/sbin/dpkg"
+      - "/usr/X11R6/dpkg"
+      - "/usr/pkg/bin/dpkg"
+      - "/usr/pkg/sbin/dpkg"
+      - "/usr/pkg/dpkg"
+      - "/opt/bin/dpkg"
+      - "/opt/sbin/dpkg"
+      - "/opt/dpkg"
+      - "/sw/bin/dpkg"
+      - "/sw/sbin/dpkg"
+      - "/sw/dpkg"
+      - "/opt/local/bin/dpkg"
+      - "/opt/local/sbin/dpkg"
+      - "/opt/local/dpkg"
+      - "/Users/amil21/Applications/dpkg"
+      - "/Applications/dpkg"
+      - "/Applications/Xcode-beta.app/Contents/Applications/dpkg"
+      - "/Applications/Xcode-beta.app/Contents/Developer/Applications/dpkg"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/amil21/.antigravity/antigravity/bin"
+        - "/Users/amil21/.shorebird/bin"
+        - "/Users/amil21/Documents/gradle-7.6.3/bin"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+        - "/Users/amil21/Settings/flutter/bin/"
+        - "/Users/amil21/.rbenv/shims/pod"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/.pub-cache/bin"
+        - "/Users/amil21/Library/Android/sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/amil21/Applications"
+        - "/Applications"
+        - "/Applications/Xcode-beta.app/Contents/Applications"
+        - "/Applications/Xcode-beta.app/Contents/Developer/Applications"
+...

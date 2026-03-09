@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/amil21/Documents/emulator/LLD_gbemu/emulator/cmake_install.cmake",
+		"/Users/amil21/Documents/emulator/LLD_gbemu/emulator/lib/cmake_install.cmake",
+		"/Users/amil21/Documents/emulator/LLD_gbemu/emulator/gbemu/cmake_install.cmake",
+		"/Users/amil21/Documents/emulator/LLD_gbemu/emulator/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
