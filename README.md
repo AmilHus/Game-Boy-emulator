@@ -8,7 +8,7 @@ A high-performance Game Boy (DMG) and Game Boy Color (CGB) emulator written in C
 </p>
 
 <p align="center">
-  <video src="assets/video_1.mov" width="70%" controls></video>
+  <video src="assets/video_1.mp4" width="70%" controls></video>
 </p>
 
 ## Features
