@@ -2,6 +2,9 @@
 
 A high-performance Game Boy (DMG) and Game Boy Color (CGB) emulator written in C using SDL2.
 
+![Screenshot 1](assets/screenshot_1.png)  ![Screenshot 2](assets/screenshot_2.png)
+![Emulator in action](assets/video_1.mov)
+
 ## Features
 
 - **DMG & CGB Support**: Full emulation of both original Game Boy and Game Boy Color hardware.
