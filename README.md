@@ -7,10 +7,6 @@ A high-performance Game Boy (DMG) and Game Boy Color (CGB) emulator written in C
   <img src="assets/screenshot_2.png" width="45%" />
 </p>
 
-<p align="center">
-  <video src="assets/video_1.mp4" width="70%" controls></video>
-</p>
-
 ## Features
 
 - **DMG & CGB Support**: Full emulation of both original Game Boy and Game Boy Color hardware.
