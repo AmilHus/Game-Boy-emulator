@@ -12,6 +12,7 @@ typedef enum { FS_TILE, FS_DATA0, FS_DATA1, FS_IDLE, FS_PUSH } fetch_state;
 typedef struct _fifo_entry {
   struct _fifo_entry *next;
   u32 value; // 32 bit color value.
+  bool is_window;
 } fifo_entry;
 
 typedef struct {
@@ -24,8 +25,8 @@ typedef struct {
   fetch_state cur_fetch_state;
   fifo pixel_fifo;
   u8 line_x;
-  u8 pushed_x;
-  u8 fetch_x;
+  u32 pushed_x;
+  u32 fetch_x;
   u8 bgw_fetch_data[3];
   u8 bgw_fetch_attrs;
   u8 fetch_entry_data[6]; // oam data..
@@ -33,6 +34,11 @@ typedef struct {
   u8 map_x;
   u8 tile_y;
   u8 fifo_x;
+
+  u8 fetch_tile_num;
+  u8 fetch_tile_y;
+  u8 fetch_attrs;
+  bool fetch_is_window;
 } pixel_fifo_context;
 
 typedef struct {
@@ -75,6 +81,7 @@ typedef struct {
   u8 fetched_entry_count;
   oam_entry fetched_entries[3];
   u8 window_line;
+  bool window_triggered;
 
   pixel_fifo_context pfc;
 

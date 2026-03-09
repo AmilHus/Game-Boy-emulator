@@ -5,15 +5,15 @@
 #include <stdlib.h>
 
 bool window_visible() {
-  return LCDC_WIN_ENABLE && lcd_get_context()->win_x >= 0 &&
-         lcd_get_context()->win_x <= 166 && lcd_get_context()->win_y >= 0 &&
-         lcd_get_context()->win_y < YRES;
+  return LCDC_WIN_ENABLE && lcd_get_context()->ly >= lcd_get_context()->win_y &&
+         lcd_get_context()->win_x >= 0 && lcd_get_context()->win_x <= 166;
 }
 
-void pixel_fifo_push(u32 value) {
+void pixel_fifo_push(u32 value, bool is_window) {
   fifo_entry *next = malloc(sizeof(fifo_entry));
   next->next = NULL;
   next->value = value;
+  next->is_window = is_window;
 
   if (!ppu_get_context()->pfc.pixel_fifo.head) {
     // first entry...
@@ -106,7 +106,7 @@ bool pipeline_fifo_add() {
 
   for (int i = 0; i < 8; i++) {
     int bit = 7 - i;
-    u8 attrs = ppu_get_context()->pfc.bgw_fetch_attrs;
+    u8 attrs = ppu_get_context()->pfc.fetch_attrs;
 
     if (cart_is_cgb() && (attrs & (1 << 5))) { // Horizontal Flip
       bit = i;
@@ -121,8 +121,10 @@ bool pipeline_fifo_add() {
       color = ppu_get_color(ppu_get_context()->bg_palette_ram, pal, hi | lo);
     }
 
-    if (!LCDC_BGW_ENABLE) {
-      color = lcd_get_context()->bg_colors[0];
+    if (!cart_is_cgb()) {
+      if (!LCDC_BGW_ENABLE) {
+        color = lcd_get_context()->bg_colors[0];
+      }
     }
 
     if (LCDC_OBJ_ENABLE) {
@@ -130,7 +132,7 @@ bool pipeline_fifo_add() {
     }
 
     if (x >= 0) {
-      pixel_fifo_push(color);
+      pixel_fifo_push(color, ppu_get_context()->pfc.fetch_is_window);
       ppu_get_context()->pfc.fifo_x++;
     }
   }
@@ -201,27 +203,28 @@ void pipeline_load_window_tile() {
   if (ppu_get_context()->pfc.fetch_x + 7 >= lcd_get_context()->win_x &&
       ppu_get_context()->pfc.fetch_x + 7 <=
           lcd_get_context()->win_x + XRES + 14) {
-    if (lcd_get_context()->ly >= window_y &&
-        lcd_get_context()->ly < window_y + YRES) {
-      u8 w_tile_y = ppu_get_context()->window_line / 8;
+    u8 w_tile_y = ppu_get_context()->window_line / 8;
 
-      ppu_get_context()->pfc.bgw_fetch_data[0] = bus_read(
-          LCDC_WIN_MAP_AREA +
-          ((ppu_get_context()->pfc.fetch_x + 7 - lcd_get_context()->win_x) /
-           8) +
-          (w_tile_y * 32));
+    ppu_get_context()->pfc.fetch_tile_num = bus_read(
+        LCDC_WIN_MAP_AREA +
+        ((ppu_get_context()->pfc.fetch_x + 7 - lcd_get_context()->win_x) / 8) +
+        (w_tile_y * 32));
 
-      ppu_get_context()->pfc.tile_y = (ppu_get_context()->window_line % 8) * 2;
+    ppu_get_context()->pfc.fetch_tile_y =
+        (ppu_get_context()->window_line % 8) * 2;
 
-      if (cart_is_cgb()) {
-        ppu_get_context()->pfc.bgw_fetch_attrs =
-            ppu_get_context()->vram[1][LCDC_WIN_MAP_AREA - 0x8000 +
-                                       ((ppu_get_context()->pfc.fetch_x + 7 -
-                                         lcd_get_context()->win_x) /
-                                        8) +
-                                       (w_tile_y * 32)];
-      }
+    ppu_get_context()->pfc.fetch_is_window = true;
+
+    if (cart_is_cgb()) {
+      ppu_get_context()->pfc.fetch_attrs =
+          ppu_get_context()->vram[1][LCDC_WIN_MAP_AREA - 0x8000 +
+                                     ((ppu_get_context()->pfc.fetch_x + 7 -
+                                       lcd_get_context()->win_x) /
+                                      8) +
+                                     (w_tile_y * 32)];
     }
+
+    ppu_get_context()->window_triggered = true;
   }
 }
 
@@ -229,15 +232,19 @@ void pipeline_fetch() {
   switch (ppu_get_context()->pfc.cur_fetch_state) {
   case FS_TILE: {
     ppu_get_context()->fetched_entry_count = 0;
-    ppu_get_context()->pfc.bgw_fetch_attrs = 0;
+    ppu_get_context()->pfc.fetch_attrs = 0;
+    ppu_get_context()->pfc.fetch_is_window = false;
 
-    if (LCDC_BGW_ENABLE) {
-      ppu_get_context()->pfc.bgw_fetch_data[0] =
+    if (LCDC_BGW_ENABLE || cart_is_cgb()) {
+      ppu_get_context()->pfc.fetch_tile_num =
           bus_read(LCDC_BG_MAP_AREA + (ppu_get_context()->pfc.map_x / 8) +
                    (((ppu_get_context()->pfc.map_y / 8)) * 32));
 
+      ppu_get_context()->pfc.fetch_tile_y =
+          ((lcd_get_context()->ly + lcd_get_context()->scroll_y) % 8) * 2;
+
       if (cart_is_cgb()) {
-        ppu_get_context()->pfc.bgw_fetch_attrs =
+        ppu_get_context()->pfc.fetch_attrs =
             ppu_get_context()
                 ->vram[1][LCDC_BG_MAP_AREA - 0x8000 +
                           (ppu_get_context()->pfc.map_x / 8) +
@@ -258,10 +265,10 @@ void pipeline_fetch() {
   case FS_DATA0: {
     u8 bank = 0;
     if (cart_is_cgb()) {
-      bank = (ppu_get_context()->pfc.bgw_fetch_attrs >> 3) & 1;
+      bank = (ppu_get_context()->pfc.fetch_attrs >> 3) & 1;
     }
 
-    u16 tile_index = ppu_get_context()->pfc.bgw_fetch_data[0];
+    u16 tile_index = ppu_get_context()->pfc.fetch_tile_num;
     u16 tile_addr;
 
     if (LCDC_BGW_DATA_AREA == 0x8800) {
@@ -270,8 +277,8 @@ void pipeline_fetch() {
       tile_addr = tile_index * 16;
     }
 
-    u8 ty = ppu_get_context()->pfc.tile_y;
-    if (cart_is_cgb() && (ppu_get_context()->pfc.bgw_fetch_attrs & (1 << 6))) {
+    u8 ty = ppu_get_context()->pfc.fetch_tile_y;
+    if (cart_is_cgb() && (ppu_get_context()->pfc.fetch_attrs & (1 << 6))) {
       // Vertical Flip
       ty = (7 - (ty / 2)) * 2;
     }
@@ -287,10 +294,10 @@ void pipeline_fetch() {
   case FS_DATA1: {
     u8 bank = 0;
     if (cart_is_cgb()) {
-      bank = (ppu_get_context()->pfc.bgw_fetch_attrs >> 3) & 1;
+      bank = (ppu_get_context()->pfc.fetch_attrs >> 3) & 1;
     }
 
-    u16 tile_index = ppu_get_context()->pfc.bgw_fetch_data[0];
+    u16 tile_index = ppu_get_context()->pfc.fetch_tile_num;
     u16 tile_addr;
 
     if (LCDC_BGW_DATA_AREA == 0x8800) {
@@ -299,8 +306,8 @@ void pipeline_fetch() {
       tile_addr = tile_index * 16;
     }
 
-    u8 ty = ppu_get_context()->pfc.tile_y;
-    if (cart_is_cgb() && (ppu_get_context()->pfc.bgw_fetch_attrs & (1 << 6))) {
+    u8 ty = ppu_get_context()->pfc.fetch_tile_y;
+    if (cart_is_cgb() && (ppu_get_context()->pfc.fetch_attrs & (1 << 6))) {
       // Vertical Flip
       ty = (7 - (ty / 2)) * 2;
     }
@@ -329,9 +336,12 @@ void pipeline_fetch() {
 
 void pipeline_push_pixel() {
   if (ppu_get_context()->pfc.pixel_fifo.size > 8) {
+    fifo_entry *popped_entry = ppu_get_context()->pfc.pixel_fifo.head;
+    bool is_win = popped_entry->is_window;
     u32 pixel_data = pixel_fifo_pop();
 
-    if (ppu_get_context()->pfc.line_x >= (lcd_get_context()->scroll_x % 8)) {
+    if (is_win ||
+        ppu_get_context()->pfc.line_x >= (lcd_get_context()->scroll_x % 8)) {
       ppu_get_context()->video_buffer[ppu_get_context()->pfc.pushed_x +
                                       (lcd_get_context()->ly * XRES)] =
           pixel_data;
@@ -339,7 +349,9 @@ void pipeline_push_pixel() {
       ppu_get_context()->pfc.pushed_x++;
     }
 
-    ppu_get_context()->pfc.line_x++;
+    if (!is_win) {
+      ppu_get_context()->pfc.line_x++;
+    }
   }
 }
 
@@ -348,8 +360,6 @@ void pipeline_process() {
       (lcd_get_context()->ly + lcd_get_context()->scroll_y);
   ppu_get_context()->pfc.map_x =
       (ppu_get_context()->pfc.fetch_x + lcd_get_context()->scroll_x);
-  ppu_get_context()->pfc.tile_y =
-      ((lcd_get_context()->ly + lcd_get_context()->scroll_y) % 8) * 2;
 
   if (!(ppu_get_context()->line_ticks & 1)) {
     pipeline_fetch();

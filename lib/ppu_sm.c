@@ -7,10 +7,11 @@
 #include <string.h>
 
 void increment_ly() {
-  if (window_visible() && lcd_get_context()->ly >= lcd_get_context()->win_y &&
-      lcd_get_context()->ly < lcd_get_context()->win_y + YRES) {
+  if (ppu_get_context()->window_triggered) {
     ppu_get_context()->window_line++;
   }
+
+  ppu_get_context()->window_triggered = false;
 
   lcd_get_context()->ly++;
 
